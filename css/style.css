@@ -36,13 +36,33 @@ header h1{
     min-height: 7vh;
     align-items: center;
     background-color: white;
+    padding-left: 10%;
+    padding-right: 10%;
 
 }
+
 .menu li {
     list-style: none;
+    
 }
 .menu li a{
     text-decoration: none;
     color: black;
-    border: 2px 0px 2px 0px solid black
+    min-height: 5vh;
+    display: flex;
+    align-items: center;
+    padding: 0px 10px 0px 10px;
+    
+}
+
+.menu li a:hover{
+    background-color: gray;
+    opacity: 20%;
+    color: white;
+}
+.principal{
+    margin: 5%;
+}
+.servicos {
+    display: flex;
 }
