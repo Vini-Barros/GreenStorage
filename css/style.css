@@ -97,7 +97,7 @@ header h1{
 }
 .proposito img{
     width: 50%;
-    
+    height: 33%;
 }
 .propositoItems{
     padding: 10vh;
@@ -115,7 +115,7 @@ header h1{
     padding: 3% 11% 0% 11%;
 }
 .propositoItems button{
-    display: block;
+    display: flex;
     margin-top: 20px;
     margin-left: 11%;
     /* margin-right: auto; */
@@ -124,7 +124,35 @@ header h1{
 }
 .propositoItems a{
     text-decoration: none;
-    padding: 15vh;
+    padding: 0px 70px 0px 70px;
     color: white;
     font-size: 20px;
+}
+
+.doacao{
+    display: flex;
+    width: 100%;
+    height: 33%;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding: 10vh;
+    background-color: #63a164;
+}
+
+.doacaoItems{
+    padding: 10vh;
+}
+
+.doacaoItems h2{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+
+.doacaoItems{
+    padding: 3% 11% 0% 11%;
+}
+.doacao img{
+    width: 30%;
 }
